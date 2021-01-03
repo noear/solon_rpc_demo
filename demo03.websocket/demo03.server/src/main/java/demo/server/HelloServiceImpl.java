@@ -8,7 +8,7 @@ import org.noear.solon.core.handle.MethodType;
 /**
  * @author noear 2021/1/3 created
  */
-@Mapping(value = "/",method = MethodType.SOCKET)
+@Mapping(value = "/",method = MethodType.WEBSOCKET)
 @Component(remoting = true)
 public class HelloServiceImpl implements HelloService {
     @Override

@@ -12,7 +12,7 @@ public class ClientApp {
         Solon.start(ClientApp.class, args);
 
         HelloService helloService = Nami.builder()
-                .upstream(() -> "tcp://localhost:28080").create(HelloService.class);
+                .upstream(() -> "ws://localhost:"+(15000 + 8080)).create(HelloService.class);
 
         String result = helloService.hello("noear");
         System.out.println("Rpc result: " + result);
