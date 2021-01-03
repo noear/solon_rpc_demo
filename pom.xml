@@ -20,6 +20,11 @@
         <module>demo01.http/demo01.interface</module>
         <module>demo01.http/demo01.client</module>
         <module>demo01.http/demo01.server</module>
+
+
+        <module>demo02.socket/demo02.interface</module>
+        <module>demo02.socket/demo02.client</module>
+        <module>demo02.socket/demo02.server</module>
     </modules>
 
 </project>
