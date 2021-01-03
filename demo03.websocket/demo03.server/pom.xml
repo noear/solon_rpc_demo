@@ -29,7 +29,12 @@
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>solon.boot.socketd.websocket</artifactId>
+            <artifactId>solon.serialization.hession</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>solon.boot.smarthttp</artifactId>
         </dependency>
     </dependencies>
 
