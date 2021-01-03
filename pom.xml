@@ -28,6 +28,10 @@
         <module>demo03.websocket/demo03.interface</module>
         <module>demo03.websocket/demo03.client</module>
         <module>demo03.websocket/demo03.server</module>
+
+        <module>demo04.hybrid/demo04.interface</module>
+        <module>demo04.hybrid/demo04.client</module>
+        <module>demo04.hybrid/demo04.server</module>
     </modules>
 
 </project>
