@@ -1,6 +1,6 @@
-package demo01.server;
+package demo.server;
 
-import demo01.HelloService;
+import demo.HelloService;
 import org.noear.solon.annotation.Component;
 import org.noear.solon.annotation.Mapping;
 

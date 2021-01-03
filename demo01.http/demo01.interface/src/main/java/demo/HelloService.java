@@ -1,4 +1,4 @@
-package demo01;
+package demo;
 
 /**
  * @author noear 2021/1/3 created

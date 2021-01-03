@@ -1,6 +1,6 @@
-package demo01.client;
+package demo.client;
 
-import demo01.HelloService;
+import demo.HelloService;
 import org.noear.nami.Nami;
 import org.noear.solon.Solon;
 
@@ -11,6 +11,9 @@ public class ClientApp {
     public static void main(String[] args) {
         Solon.start(ClientApp.class, args);
 
+        //
+        // 默认使用json解码
+        //
         HelloService helloService = Nami.builder()
                 .upstream(() -> "http://localhost:8080").create(HelloService.class);
 

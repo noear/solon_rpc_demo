@@ -1,6 +1,6 @@
-package demo01.client;
+package demo.client;
 
-import demo01.HelloService;
+import demo.HelloService;
 import org.noear.nami.Nami;
 import org.noear.solon.Solon;
 

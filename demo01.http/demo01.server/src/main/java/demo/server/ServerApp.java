@@ -1,4 +1,4 @@
-package demo01.server;
+package demo.server;
 
 import org.noear.solon.Solon;
 
