@@ -3,6 +3,7 @@ package demo.client;
 import demo.HelloService;
 import org.noear.nami.Nami;
 import org.noear.nami.coder.hession.HessianDecoder;
+import org.noear.nami.coder.hession.HessianEncoder;
 import org.noear.solon.Solon;
 
 /**
@@ -25,6 +26,13 @@ public class ClientApp {
         // 使用hessian解码
         //
         rpc = Nami.builder().upstream(() -> "tcp://localhost:28080").decoder(HessianDecoder.instance).create(HelloService.class);
+
+        result = rpc.hello("noear");
+        System.out.println("Rpc result: " + result);
+
+        // 使用hessian解码+编码
+        //
+        rpc = Nami.builder().upstream(() -> "tcp://localhost:28080").encoder(HessianEncoder.instance).decoder(HessianDecoder.instance).create(HelloService.class);
 
         result = rpc.hello("noear");
         System.out.println("Rpc result: " + result);
