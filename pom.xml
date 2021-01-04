@@ -17,6 +17,10 @@
     <description>Java project for solon-rpc demo</description>
 
     <modules>
+        <module>demo00.simple/demo00.interface</module>
+        <module>demo00.simple/demo00.client</module>
+        <module>demo00.simple/demo00.server</module>
+
         <module>demo01.http/demo01.interface</module>
         <module>demo01.http/demo01.client</module>
         <module>demo01.http/demo01.server</module>
