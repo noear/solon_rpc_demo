@@ -9,7 +9,10 @@ import org.noear.solon.Solon;
  */
 public class ClientApp {
     public static void main(String[] args) {
-        Solon.start(ClientApp.class, args);
+        //
+        //solon-rpc 包里有 http boot 能力；此demo 不需要，所以app.enableHttp(false)
+        //
+        Solon.start(ClientApp.class, args, app->app.enableHttp(false));
 
         //
         // 默认使用json解码
