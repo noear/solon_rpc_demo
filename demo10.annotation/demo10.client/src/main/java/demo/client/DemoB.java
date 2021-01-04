@@ -8,8 +8,9 @@ import org.noear.solon.annotation.Component;
  * @author noear 2021/1/5 created
  */
 @Component
-public class ClientDemo {
-    @NamiClient(upstream = "http://localhost:8080")
+public class DemoB {
+    //使用动态负载器
+    @NamiClient("local")
     HelloService helloService;
 
     public void test() {
