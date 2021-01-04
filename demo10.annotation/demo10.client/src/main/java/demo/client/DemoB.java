@@ -9,7 +9,7 @@ import org.noear.solon.annotation.Component;
  */
 @Component
 public class DemoB {
-    //使用动态负载器
+    //使用动态负载器 //适用于对接发现服务或者配置
     @NamiClient("local")
     HelloService helloService;
 

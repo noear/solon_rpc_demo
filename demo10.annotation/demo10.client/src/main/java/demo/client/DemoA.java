@@ -9,7 +9,7 @@ import org.noear.solon.annotation.Component;
  */
 @Component
 public class DemoA {
-    //使用固定负载器
+    //使用固定负载器 //适用于快速演示或调试
     @NamiClient(upstream = "http://localhost:8080")
     HelloService helloService;
 
