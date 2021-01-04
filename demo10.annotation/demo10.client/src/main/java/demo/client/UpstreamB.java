@@ -3,8 +3,6 @@ package demo.client;
 import org.noear.solon.annotation.Component;
 import org.noear.solon.core.LoadBalance;
 
-import java.util.List;
-
 /**
  * 定义一个负载器；可对接发现服务或者配置
  *
