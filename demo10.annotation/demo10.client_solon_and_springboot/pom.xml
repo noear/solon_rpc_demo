@@ -11,7 +11,7 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>demo10.client</artifactId>
+    <artifactId>demo10.client_solon_and_springboot</artifactId>
 
     <description>Java project for solon-rpc demo</description>
 
@@ -23,9 +23,24 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>2.0.4.RELEASE</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>solon-rpc</artifactId>
-            <type>pom</type>
+            <artifactId>springboot-solon-plugin</artifactId>
+        </dependency>
+
+        <!-- rpc client -->
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>nami.channel.okhttp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>nami.coder.snack3</artifactId>
         </dependency>
     </dependencies>
 

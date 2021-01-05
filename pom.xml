@@ -38,7 +38,9 @@
         <module>demo04.hybrid/demo04.server</module>
 
         <module>demo10.annotation/demo10.interface</module>
-        <module>demo10.annotation/demo10.client</module>
+        <module>demo10.annotation/demo10.client_solon</module>
+        <module>demo10.annotation/demo10.client_solon_and_springboot</module>
+        <module>demo10.annotation/demo10.client_springboot</module>
         <module>demo10.annotation/demo10.server</module>
     </modules>
 
