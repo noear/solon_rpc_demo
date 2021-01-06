@@ -30,7 +30,7 @@
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>springboot-solon-plugin</artifactId>
+            <artifactId>nami-springboot-starter</artifactId>
         </dependency>
 
         <!-- rpc client -->
