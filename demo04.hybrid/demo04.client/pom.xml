@@ -39,22 +39,17 @@
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>nami.channel.okhttp</artifactId>
+            <artifactId>nami.channel.http.okhttp</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>nami.channel.socketd</artifactId>
+            <artifactId>nami.channel.socketd.websocket</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>solon.socketd.client.websocket</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.noear</groupId>
-            <artifactId>solon.socketd.client.rsocket</artifactId>
+            <artifactId>nami.channel.socketd.rsocket</artifactId>
         </dependency>
     </dependencies>
 
