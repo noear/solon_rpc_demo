@@ -25,7 +25,6 @@
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>solon-rpc</artifactId>
-            <type>pom</type>
         </dependency>
     </dependencies>
 
