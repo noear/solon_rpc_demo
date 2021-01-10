@@ -6,12 +6,12 @@
 
     <parent>
         <groupId>org.noear</groupId>
-        <artifactId>solon_rpc_demo</artifactId>
-        <version>demo</version>
-        <relativePath>../../pom.xml</relativePath>
+        <artifactId>solon-parent</artifactId>
+        <version>1.2.18</version>
     </parent>
 
     <artifactId>demo00.server</artifactId>
+    <version>demo</version>
 
     <description>Java project for solon-rpc demo</description>
 
