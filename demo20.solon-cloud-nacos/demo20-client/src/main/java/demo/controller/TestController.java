@@ -21,7 +21,7 @@ public class TestController {
     @Inject
     HelloService helloService;
 
-    //这是远程的（改成：CloudClient，会不会显得跟 CloudConfig 更配套?）
+    //这是远程的
     @NamiClient
     HelloService helloService2;
 
@@ -31,12 +31,5 @@ public class TestController {
         String temp = helloService2.hello();
 
         return temp;
-
-//        if (Utils.isNotEmpty(msg)) {
-//            WaterClient.Message.sendMessage("test.hello", "test2-" + msg);
-//            return "OK: *" + WaterClient.waterTraceId() + "-" + water_cache_header;
-//        } else {
-//            return "NO: " + helloService2.hello();
-//        }
     }
 }
