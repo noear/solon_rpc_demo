@@ -8,8 +8,6 @@ import org.noear.solon.annotation.Mapping;
 import org.noear.solon.cloud.annotation.CloudConfig;
 
 /**
- * 这是Solon的控制器（基于Solon Bean 容器运行）；可以跳过
- *
  * @author noear 2020/12/28 created
  */
 @Controller
