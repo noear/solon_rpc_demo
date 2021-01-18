@@ -1,0 +1,8 @@
+server.port: 7112
+
+solon.app.name: helloapi
+
+solon.cloud.nacos:
+  server: 172.168.0.48:8848
+  username: nacos
+  password: nacos

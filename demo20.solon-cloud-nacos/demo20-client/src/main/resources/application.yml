@@ -1,0 +1,8 @@
+solon.app:
+  group: water
+  name: helloapp
+
+solon.cloud.nacos:
+  server: 172.168.0.48:8848
+  username: nacos
+  password: nacos
