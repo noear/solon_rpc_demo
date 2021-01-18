@@ -1,6 +1,5 @@
 package demo.client;
 
-import org.noear.nami.integration.springboot.EnableNamiClients;
 import org.noear.solon.core.Aop;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author noear 2021/1/3 created
  */
-@EnableNamiClients
 @SpringBootApplication
 public class ClientApp {
     public static void main(String[] args) {

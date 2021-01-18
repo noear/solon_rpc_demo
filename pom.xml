@@ -37,6 +37,10 @@
         <module>demo10.annotation/demo10.client_solon_and_springboot</module>
         <module>demo10.annotation/demo10.client_springboot</module>
         <module>demo10.annotation/demo10.server</module>
+
+        <module>demo20.solon-cloud-nacos/demo20-interface</module>
+        <module>demo20.solon-cloud-nacos/demo20-client</module>
+        <module>demo20.solon-cloud-nacos/demo20-server</module>
     </modules>
 
 </project>

@@ -1,13 +1,11 @@
 package demo.client;
 
-import org.noear.nami.integration.solon.EnableNamiClient;
 import org.noear.solon.Solon;
 import org.noear.solon.core.Aop;
 
 /**
  * @author noear 2021/1/3 created
  */
-@EnableNamiClient
 public class ClientApp {
     public static void main(String[] args) {
         //
