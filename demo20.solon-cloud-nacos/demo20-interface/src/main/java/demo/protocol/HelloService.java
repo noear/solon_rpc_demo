@@ -10,7 +10,7 @@ import org.noear.nami.annotation.NamiClient;
  *
  * @author noear 2020/12/29 created
  */
-@NamiClient("helloapi:/rpc/")
+@NamiClient(name = "helloapi",path = "/rpc/")
 public interface HelloService {
     String hello();
 }
