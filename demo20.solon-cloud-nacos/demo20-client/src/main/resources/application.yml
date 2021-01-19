@@ -1,5 +1,5 @@
 solon.app:
-  group: water      #配置服务使用的默认组
+  group: demo      #配置服务使用的默认组
   name: helloapp    #发现服务使用的应用名
 
 solon.cloud.nacos:
