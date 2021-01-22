@@ -45,6 +45,10 @@
         <module>demo21.solon-cloud-consul/demo21-interface</module>
         <module>demo21.solon-cloud-consul/demo21-client</module>
         <module>demo21.solon-cloud-consul/demo21-server</module>
+
+        <module>demo22.solon-cloud-water/demo22-interface</module>
+        <module>demo22.solon-cloud-water/demo22-client</module>
+        <module>demo22.solon-cloud-water/demo22-server</module>
     </modules>
 
 </project>
