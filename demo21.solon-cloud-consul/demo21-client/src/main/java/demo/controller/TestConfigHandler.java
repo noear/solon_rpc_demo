@@ -14,6 +14,6 @@ public class TestConfigHandler implements CloudConfigHandler {
 
     @Override
     public void handler(Config config) {
-        System.out.println(config.getValue());
+        System.out.println(config.value());
     }
 }
