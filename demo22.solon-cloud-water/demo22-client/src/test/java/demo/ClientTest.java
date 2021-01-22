@@ -18,6 +18,6 @@ public class ClientTest extends HttpTestBase {
     public void test() throws IOException {
         String rst = path("/test").data("msg", "1").get();
 
-        assert "remote: hello".equals(rst);
+        assert "remote: hello,xxx".equals(rst);
     }
 }
