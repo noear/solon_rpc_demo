@@ -4,5 +4,21 @@
 * rpc使用注册与发现服务
 * 使用配置服务
 * 使用配置服务的注入@CloudConfig
-* 订阅配置
+* 
+
+
+#### 演示配置初始化
+
+* 增加配置：group=demo；dataid=water_cache_header
+```
+ddd
+```
+
+* 增加配置：group=demo；dataid=test.properties
+```
+db1.url=xxx
+db1.username=xxx
+db1.password=xxx
+```
+  
   

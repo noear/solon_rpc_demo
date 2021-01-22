@@ -2,6 +2,7 @@ package demo.controller;
 
 import demo.protocol.HelloService;
 import org.noear.nami.annotation.NamiClient;
+import org.noear.solon.Solon;
 import org.noear.solon.annotation.Controller;
 import org.noear.solon.annotation.Inject;
 import org.noear.solon.annotation.Mapping;
@@ -28,6 +29,6 @@ public class TestController {
         helloService.hello();
         String temp = helloService2.hello();
 
-        return temp;
+        return temp + "," + Solon.cfg().get("db1.url");
     }
 }

@@ -4,3 +4,5 @@ solon.app:
 
 solon.cloud.consul:
   server: 127.0.0.1   #consul服务地址
+  config:
+    loadKey: "test.properties"

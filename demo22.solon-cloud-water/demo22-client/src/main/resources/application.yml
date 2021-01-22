@@ -4,3 +4,5 @@ solon.app:
 
 solon.cloud.water:
   server: water   #water服务地址
+  config:
+    loadKey: "test.properties"
