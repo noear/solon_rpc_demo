@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 @Configuration
 public class Config {
     @Bean
-    public DataSource ds(@Inject("db1") HikariDataSource ds) {
+    public DataSource ds(@Inject("${db1}") HikariDataSource ds) {
         System.out.println(ds.getUsername() + ":" + ds.getJdbcUrl());
         return ds;
     }
