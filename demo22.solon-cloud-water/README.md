@@ -16,7 +16,8 @@ ddd
 
 * 增加配置：tag=demo；dataid=test.properties
 ```
-db1.url=xxx
-db1.username=xxx
+db1.url=jdbc
+db1.username=noear
 db1.password=xxx
+db1.jdbcUrl=${db1.url}
 ```
