@@ -13,7 +13,8 @@ import org.noear.solon.cloud.annotation.CloudConfig;
  */
 @Controller
 public class TestController {
-    @CloudConfig("water_cache_header")
+    //注：非单例，不需要加autoRefreshed
+    @CloudConfig(value = "water_cache_header", autoRefreshed = true)
     String water_cache_header;
 
     //这是本地的
@@ -26,6 +27,8 @@ public class TestController {
 
     @Mapping("/test")
     public String home(String msg) throws Exception {
+        System.out.println(water_cache_header);
+
         helloService.hello();
         String temp = helloService2.hello();
 
