@@ -6,3 +6,4 @@ solon.cloud.rocketmq:
   server: localhost:5672   #rocketmq服务地址
   username: root           #rocketmq链接账号
   password: 123456         #rocketmq链接密码
+

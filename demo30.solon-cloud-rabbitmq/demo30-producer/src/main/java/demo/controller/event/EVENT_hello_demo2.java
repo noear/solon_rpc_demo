@@ -1,4 +1,4 @@
-package demo.controller;
+package demo.controller.event;
 
 import org.noear.solon.cloud.CloudEventHandler;
 import org.noear.solon.cloud.annotation.CloudEvent;
