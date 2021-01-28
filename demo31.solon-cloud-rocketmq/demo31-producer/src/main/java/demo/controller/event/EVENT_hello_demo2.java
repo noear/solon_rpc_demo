@@ -15,6 +15,6 @@ public class EVENT_hello_demo2 implements CloudEventHandler {
     @Override
     public boolean handler(Event event) throws Throwable {
         System.out.println(LocalDateTime.now() + ONode.stringify(event));
-        return true;
+        return event.times() > 3;
     }
 }

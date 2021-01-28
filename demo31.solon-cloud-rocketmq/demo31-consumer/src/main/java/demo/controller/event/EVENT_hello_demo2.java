@@ -18,6 +18,6 @@ public class EVENT_hello_demo2 implements CloudEventHandler {
         //演示守护效果
         //
         System.out.println(LocalDateTime.now() + ONode.stringify(event));
-        return event.times() > 4;
+        return event.times() > 3;
     }
 }
