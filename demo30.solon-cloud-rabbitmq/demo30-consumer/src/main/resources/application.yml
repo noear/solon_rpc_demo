@@ -1,6 +1,6 @@
 solon.app:
   group: demo       #配置服务使用的默认组
-  name: hello-consumer    #发现服务使用的应用名
+  name: helloconsumer    #发现服务使用的应用名
 
 solon.cloud.rocketmq:
   server: localhost:5672   #rocketmq服务地址
