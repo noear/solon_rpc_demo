@@ -54,6 +54,9 @@
         <module>demo30.solon-cloud-rabbitmq/demo30-consumer</module>
         <module>demo30.solon-cloud-rabbitmq/demo30-producer</module>
 
+        <module>demo31.solon-cloud-rocketmq/demo31-consumer</module>
+        <module>demo31.solon-cloud-rocketmq/demo31-producer</module>
+
     </modules>
 
 </project>
