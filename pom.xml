@@ -58,6 +58,10 @@
         <module>demo22.solon-cloud-water/demo22-client</module>
         <module>demo22.solon-cloud-water/demo22-server</module>
 
+        <module>demo22b.solon-cloud-water/demo22b-interface</module>
+        <module>demo22b.solon-cloud-water/demo22b-client</module>
+        <module>demo22b.solon-cloud-water/demo22b-server</module>
+
 
         <module>demo30.solon-cloud-rabbitmq/demo30-consumer</module>
         <module>demo30.solon-cloud-rabbitmq/demo30-producer</module>
