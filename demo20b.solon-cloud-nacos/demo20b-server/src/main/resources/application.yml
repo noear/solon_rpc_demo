@@ -1,4 +1,5 @@
 server.port: 7112
+server.http.name: helloapi.http #为http信号，另取个名字；让 solon.app.name 留给 socketd 专用
 
 solon.app:
   group: demo
