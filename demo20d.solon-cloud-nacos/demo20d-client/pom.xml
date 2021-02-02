@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demo21b-server</artifactId>
+    <artifactId>demo20d-client</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -19,7 +19,7 @@
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>demo21b-interface</artifactId>
+            <artifactId>demo20d-interface</artifactId>
             <version>demo</version>
         </dependency>
 
@@ -27,20 +27,50 @@
             <groupId>org.noear</groupId>
             <artifactId>solon-rpc</artifactId>
             <version>${solon.ver}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.noear</groupId>
+                    <artifactId>solon.boot.jlhttp</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>solon.boot.socketd.smartsocket</artifactId>
+            <artifactId>solon.boot.undertow</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>consul-solon-plugin</artifactId>
+            <artifactId>nami.channel.socketd.smartsocket</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>nacos-solon-plugin</artifactId>
+            <version>${solon.ver}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.49</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>solon-test</artifactId>
+            <version>${solon.ver}</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 
@@ -72,7 +102,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>demo.ServarApp</mainClass>
+                            <mainClass>demo.ClientApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

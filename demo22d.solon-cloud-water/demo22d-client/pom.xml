@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demo22b-client</artifactId>
+    <artifactId>demo22d-client</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -19,7 +19,7 @@
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>demo22b-interface</artifactId>
+            <artifactId>demo22d-interface</artifactId>
             <version>demo</version>
         </dependency>
 

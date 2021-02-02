@@ -42,25 +42,25 @@
         <module>demo20.solon-cloud-nacos/demo20-client</module>
         <module>demo20.solon-cloud-nacos/demo20-server</module>
 
-        <module>demo20b.solon-cloud-nacos/demo20b-interface</module>
-        <module>demo20b.solon-cloud-nacos/demo20b-client</module>
-        <module>demo20b.solon-cloud-nacos/demo20b-server</module>
+        <module>demo20d.solon-cloud-nacos/demo20d-interface</module>
+        <module>demo20d.solon-cloud-nacos/demo20d-client</module>
+        <module>demo20d.solon-cloud-nacos/demo20d-server</module>
 
         <module>demo21.solon-cloud-consul/demo21-interface</module>
         <module>demo21.solon-cloud-consul/demo21-client</module>
         <module>demo21.solon-cloud-consul/demo21-server</module>
 
-        <module>demo21b.solon-cloud-consul/demo21b-interface</module>
-        <module>demo21b.solon-cloud-consul/demo21b-client</module>
-        <module>demo21b.solon-cloud-consul/demo21b-server</module>
+        <module>demo21d.solon-cloud-consul/demo21d-interface</module>
+        <module>demo21d.solon-cloud-consul/demo21d-client</module>
+        <module>demo21d.solon-cloud-consul/demo21d-server</module>
 
         <module>demo22.solon-cloud-water/demo22-interface</module>
         <module>demo22.solon-cloud-water/demo22-client</module>
         <module>demo22.solon-cloud-water/demo22-server</module>
 
-        <module>demo22b.solon-cloud-water/demo22b-interface</module>
-        <module>demo22b.solon-cloud-water/demo22b-client</module>
-        <module>demo22b.solon-cloud-water/demo22b-server</module>
+        <module>demo22d.solon-cloud-water/demo22d-interface</module>
+        <module>demo22d.solon-cloud-water/demo22d-client</module>
+        <module>demo22d.solon-cloud-water/demo22d-server</module>
 
 
         <module>demo30.solon-cloud-rabbitmq/demo30-consumer</module>

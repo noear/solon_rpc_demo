@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demo22b-server</artifactId>
+    <artifactId>demo20d-server</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -19,13 +19,25 @@
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>demo22b-interface</artifactId>
+            <artifactId>demo20d-interface</artifactId>
             <version>demo</version>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>solon-rpc</artifactId>
+            <version>${solon.ver}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.noear</groupId>
+                    <artifactId>solon.boot.jlhttp</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>solon.boot.undertow</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 
@@ -37,7 +49,7 @@
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>water-solon-plugin</artifactId>
+            <artifactId>nacos-solon-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 

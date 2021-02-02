@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demo21b-client</artifactId>
+    <artifactId>demo22d-server</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -19,7 +19,7 @@
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>demo20b-interface</artifactId>
+            <artifactId>demo22d-interface</artifactId>
             <version>demo</version>
         </dependency>
 
@@ -31,34 +31,16 @@
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>nami.channel.socketd.smartsocket</artifactId>
+            <artifactId>solon.boot.socketd.smartsocket</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>consul-solon-plugin</artifactId>
+            <artifactId>water-solon-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.49</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.zaxxer</groupId>
-            <artifactId>HikariCP</artifactId>
-            <version>3.3.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.noear</groupId>
-            <artifactId>solon-test</artifactId>
-            <version>${solon.ver}</version>
-            <scope>test</scope>
-        </dependency>
 
     </dependencies>
 
@@ -90,7 +72,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>demo.ClientApp</mainClass>
+                            <mainClass>demo.ServarApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
