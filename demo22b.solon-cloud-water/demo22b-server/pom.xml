@@ -72,7 +72,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>testapi.TestApi1App</mainClass>
+                            <mainClass>demo.ServarApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
