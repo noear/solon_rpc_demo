@@ -20,8 +20,8 @@ public class Config {
                 builder.headerSet(Constants.HEADER_CONTENT_TYPE, Constants.CONTENT_TYPE_JSON);
 
                 //如果要用PROTOBUF格式
-//                builder.headerSet(Constants.HEADER_CONTENT_TYPE,Constants.CONTENT_TYPE_PROTOBUF);
-//                builder.headerSet(Constants.HEADER_ACCEPT,Constants.CONTENT_TYPE_PROTOBUF);
+//                builder.headerSet(Constants.HEADER_CONTENT_TYPE, Constants.CONTENT_TYPE_PROTOBUF);
+//                builder.headerSet(Constants.HEADER_ACCEPT, Constants.CONTENT_TYPE_PROTOBUF);
             }
         };
     }
