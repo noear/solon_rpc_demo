@@ -19,7 +19,7 @@ public class Config {
             public void config(NamiClient client, Nami.Builder builder) {
                 builder.headerSet(Constants.HEADER_CONTENT_TYPE, Constants.CONTENT_TYPE_JSON);
 
-                //如果要用PROTOBUF格式
+                //如果要用 PROTOBUF 格式
 //                builder.headerSet(Constants.HEADER_CONTENT_TYPE, Constants.CONTENT_TYPE_PROTOBUF);
 //                builder.headerSet(Constants.HEADER_ACCEPT, Constants.CONTENT_TYPE_PROTOBUF);
             }
