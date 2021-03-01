@@ -6,5 +6,3 @@ solon.cloud.nacos:
   server: 172.168.0.48:8848   #nacos服务地址
   username: nacos             #nacos链接账号
   password: nacos             #nacos链接密码
-  config:
-    loadKey: "test.properties"
