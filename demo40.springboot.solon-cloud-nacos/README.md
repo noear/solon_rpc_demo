@@ -21,12 +21,12 @@ db1.username=noear
 db1.password=xxx
 db1.jdbcUrl=${db1.url}
 ```
-#### 关于Springboot的集成细节
+#### 关于 Springboot 的集成细节
 
 * demo40-server （3处注意细节）
   * pom.xml：引入了 solonrpc-springboot-starter ，nacos-solon-plugin 两个框架
   * ServarApp：启动类 加注解 @EnableSolonRpc
-  * HelloServiceRemoteImp：服务类使用 Solon 的注解
+  * HelloServiceRemoteImp：RPC服务类只能使用 Solon 的注解
 
 
 * demo40-interface（1处注意细节）
@@ -36,6 +36,6 @@ db1.jdbcUrl=${db1.url}
 * demo40-client（4处注意细节）
   * pom.xml：引入了 solonrpc-springboot-starter ，nacos-solon-plugin 两个框架
   * ServarApp：启动类 加注解 @EnableSolonRpc
-  * Config：配置类增加 NamiConfiguration bean配置（控制客户端序列化）
+  * Config：配置类增加 NamiConfiguration bean 配置（控制消费端序列化）
   * TestController：使用 @NamiClient 注入远程服务
   
