@@ -12,5 +12,5 @@ import org.noear.nami.annotation.NamiClient;
  */
 @NamiClient(name = "helloapi",path = "/rpc/")
 public interface HelloService {
-    String hello();
+    String hello(String name);
 }

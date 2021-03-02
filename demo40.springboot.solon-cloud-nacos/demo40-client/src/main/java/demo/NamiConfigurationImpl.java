@@ -4,12 +4,12 @@ import org.noear.nami.Nami;
 import org.noear.nami.NamiConfiguration;
 import org.noear.nami.annotation.NamiClient;
 import org.noear.nami.common.Constants;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 /**
  * @author noear 2021/3/2 created
  */
-@Configuration
+@Component
 public class NamiConfigurationImpl implements NamiConfiguration {
     @Override
     public void config(NamiClient client, Nami.Builder builder) {

@@ -16,6 +16,6 @@ public class TestController {
 
     @RequestMapping("/test")
     public String home(String msg) throws Exception {
-        return helloService2.hello();
+        return helloService2.hello("noear");
     }
 }

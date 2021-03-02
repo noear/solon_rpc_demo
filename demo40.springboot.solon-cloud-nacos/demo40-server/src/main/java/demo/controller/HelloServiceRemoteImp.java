@@ -13,7 +13,7 @@ import org.noear.solon.annotation.Mapping;
 @Component(remoting = true)
 public class HelloServiceRemoteImp implements HelloService {
     @Override
-    public String hello() {
-        return "remote: hello";
+    public String hello(String name) {
+        return "remote: hello: " + name;
     }
 }
