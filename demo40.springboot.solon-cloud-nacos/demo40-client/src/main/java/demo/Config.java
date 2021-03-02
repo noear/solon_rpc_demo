@@ -8,6 +8,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * 注：使用 Springboot 的 @Configuration + @Bean
+ *    或者 Solon 的 @Configuration + @Bean 都可
+ *
  * @author noear 2021/3/2 created
  */
 @Configuration

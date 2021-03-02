@@ -22,12 +22,20 @@ db1.password=xxx
 db1.jdbcUrl=${db1.url}
 ```
 #### 关于Springboot的集成细节
-* demo40-server 
-    * 要排序 solon-rpc 框架，要排除两个框架（具体参考 pom.xml）
-    * 启动器要增加 EnableSolon 注解
-    * 增加一个 RpcConfig 类，使用 Solon 的配置注解，之后会取消掉。临时用用。
 
-* demo40-client
-    * 要排序 solon-rpc 框架，要排除两个框架（具体参考 pom.xml）
-    * 启动类 加两个注解
+* demo40-server （3处注意细节）
+  * pom.xml：引入了 solonrpc-springboot-starter ，nacos-solon-plugin 两个框架
+  * ServarApp：启动类 加注解 @EnableSolonRpc
+  * HelloServiceRemoteImp：服务类使用 Solon 的注解
+
+
+* demo40-interface（1处注意细节）
+  * HelloService：接口申明类 加 @NamiClient
+
+
+* demo40-client（4处注意细节）
+  * pom.xml：引入了 solonrpc-springboot-starter ，nacos-solon-plugin 两个框架
+  * ServarApp：启动类 加注解 @EnableSolonRpc
+  * Config：配置类增加 NamiConfiguration bean配置（控制客户端序列化）
+  * TestController：使用 @NamiClient 注入远程服务
   

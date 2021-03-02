@@ -5,7 +5,7 @@ import org.noear.solon.annotation.Component;
 import org.noear.solon.annotation.Mapping;
 
 /**
- * 这个类的注解，必须使用 Solon 体系的注解注入
+ * 注：这个类如果有什么注入需求，要使用 Solon 的 @Inject 解注
  *
  * @author noear 2021/1/8 created
  */
