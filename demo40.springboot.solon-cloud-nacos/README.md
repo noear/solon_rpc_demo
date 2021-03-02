@@ -36,6 +36,6 @@ db1.jdbcUrl=${db1.url}
 * demo40-client（4处注意细节）
   * pom.xml：引入了 solonrpc-springboot-starter ，nacos-solon-plugin 两个框架
   * ServarApp：启动类 加注解 @EnableSolonRpc
-  * Config：配置类增加 NamiConfiguration bean 配置（控制消费端序列化）
+  * NamiConfigurationImpl：定义一个Nami配置（控制消费端序列化等细节）
   * TestController：使用 @NamiClient 注入远程服务
   
