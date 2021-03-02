@@ -20,6 +20,8 @@ public class Config {
                 builder.headerSet(Constants.HEADER_CONTENT_TYPE, Constants.CONTENT_TYPE_JSON);
 
                 //如果要用 PROTOBUF 格式
+                // >>客户端需引入：nami.coder.protostuff；
+                // >>服务端需引入：solon.serialization.protostuff
 //                builder.headerSet(Constants.HEADER_CONTENT_TYPE, Constants.CONTENT_TYPE_PROTOBUF);
 //                builder.headerSet(Constants.HEADER_ACCEPT, Constants.CONTENT_TYPE_PROTOBUF);
             }
