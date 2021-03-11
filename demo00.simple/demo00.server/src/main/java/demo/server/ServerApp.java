@@ -10,7 +10,9 @@ public class ServerApp {
     public static void main(String[] args) {
         SolonApp app = Solon.start(ServerApp.class, args);
 
-        //手动添加Rpc服务（注意 remoting 属性，设为 true 即是 rpc 服务）
+        //
+        // 手动添加Rpc服务（注意 remoting 属性，设为 true 即是 rpc service）
+        //
         app.add("/", HelloServiceImpl.class, true);
     }
 }
