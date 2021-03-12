@@ -38,29 +38,29 @@
         <module>demo10.annotation/demo10.client_springboot</module>
         <module>demo10.annotation/demo10.server</module>
 
-        <module>demo20.solon-cloud-nacos/demo20-interface</module>
-        <module>demo20.solon-cloud-nacos/demo20-client</module>
-        <module>demo20.solon-cloud-nacos/demo20-server</module>
+        <module>demo20.cloud-config-discovery/demo20.solon-cloud-nacos/demo20-interface</module>
+        <module>demo20.cloud-config-discovery/demo20.solon-cloud-nacos/demo20-client</module>
+        <module>demo20.cloud-config-discovery/demo20.solon-cloud-nacos/demo20-server</module>
 
-        <module>demo20d.solon-cloud-nacos/demo20d-interface</module>
-        <module>demo20d.solon-cloud-nacos/demo20d-client</module>
-        <module>demo20d.solon-cloud-nacos/demo20d-server</module>
+        <module>demo20.cloud-config-discovery/demo20d.solon-cloud-nacos/demo20d-interface</module>
+        <module>demo20.cloud-config-discovery/demo20d.solon-cloud-nacos/demo20d-client</module>
+        <module>demo20.cloud-config-discovery/demo20d.solon-cloud-nacos/demo20d-server</module>
 
-        <module>demo21.solon-cloud-consul/demo21-interface</module>
-        <module>demo21.solon-cloud-consul/demo21-client</module>
-        <module>demo21.solon-cloud-consul/demo21-server</module>
+        <module>demo20.cloud-config-discovery/demo21.solon-cloud-consul/demo21-interface</module>
+        <module>demo20.cloud-config-discovery/demo21.solon-cloud-consul/demo21-client</module>
+        <module>demo20.cloud-config-discovery/demo21.solon-cloud-consul/demo21-server</module>
 
-        <module>demo21d.solon-cloud-consul/demo21d-interface</module>
-        <module>demo21d.solon-cloud-consul/demo21d-client</module>
-        <module>demo21d.solon-cloud-consul/demo21d-server</module>
+        <module>demo20.cloud-config-discovery/demo21d.solon-cloud-consul/demo21d-interface</module>
+        <module>demo20.cloud-config-discovery/demo21d.solon-cloud-consul/demo21d-client</module>
+        <module>demo20.cloud-config-discovery/demo21d.solon-cloud-consul/demo21d-server</module>
 
-        <module>demo22.solon-cloud-water/demo22-interface</module>
-        <module>demo22.solon-cloud-water/demo22-client</module>
-        <module>demo22.solon-cloud-water/demo22-server</module>
+        <module>demo30.cloud-config-discovery-event-log/demo22.solon-cloud-water/demo22-interface</module>
+        <module>demo30.cloud-config-discovery-event-log/demo22.solon-cloud-water/demo22-client</module>
+        <module>demo30.cloud-config-discovery-event-log/demo22.solon-cloud-water/demo22-server</module>
 
-        <module>demo22d.solon-cloud-water/demo22d-interface</module>
-        <module>demo22d.solon-cloud-water/demo22d-client</module>
-        <module>demo22d.solon-cloud-water/demo22d-server</module>
+        <module>demo30.cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-interface</module>
+        <module>demo30.cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-client</module>
+        <module>demo30.cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-server</module>
 
         <module>demo40.springboot.solon-cloud-nacos/demo40-client</module>
         <module>demo40.springboot.solon-cloud-nacos/demo40-interface</module>
