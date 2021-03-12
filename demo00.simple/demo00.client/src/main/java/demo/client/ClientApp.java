@@ -18,7 +18,7 @@ public class ClientApp {
         //
         // 手动构建Rpc Client；默认使用json解码
         //
-        LoadBalance loadBalance = LoadBalance.get("demoapi");
+        LoadBalance loadBalance = LoadBalance.get("helloapi");
 
         HelloService helloService = Nami.builder()
                 .upstream(loadBalance::getServer)

@@ -6,3 +6,12 @@ solon.cloud.water:
   server: water   #water服务地址
   config:
     loadKey: "test.properties"
+  discovery:
+    enable: true  #设为 false 时，solon.cloud.local 会生效（一般用于本地调试）
+
+
+solon.cloud.local:
+  discovery:
+    service:
+      helloapi:
+        - "http://localhost:7112"

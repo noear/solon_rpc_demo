@@ -2,5 +2,5 @@
 solon.cloud.local:
   discovery:
     service:
-      demoapi:
+      helloapi:
         - "http://localhost:8080"
