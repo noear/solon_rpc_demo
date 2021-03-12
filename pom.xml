@@ -38,6 +38,11 @@
         <module>demo10.annotation/demo10.client_springboot</module>
         <module>demo10.annotation/demo10.server</module>
 
+
+        <module>demo40.springboot.solon-cloud-nacos/demo40-client</module>
+        <module>demo40.springboot.solon-cloud-nacos/demo40-interface</module>
+        <module>demo40.springboot.solon-cloud-nacos/demo40-server</module>
+
         <module>demoa.cloud-config-discovery/demo20.solon-cloud-nacos/demo20-interface</module>
         <module>demoa.cloud-config-discovery/demo20.solon-cloud-nacos/demo20-client</module>
         <module>demoa.cloud-config-discovery/demo20.solon-cloud-nacos/demo20-server</module>
@@ -62,9 +67,11 @@
         <module>demob.cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-client</module>
         <module>demob.cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-server</module>
 
-        <module>demo40.springboot.solon-cloud-nacos/demo40-client</module>
-        <module>demo40.springboot.solon-cloud-nacos/demo40-interface</module>
-        <module>demo40.springboot.solon-cloud-nacos/demo40-server</module>
+        <module>democ.cloud-event/demo30.solon-cloud-rabbitmq/demo30-consumer</module>
+        <module>democ.cloud-event/demo30.solon-cloud-rabbitmq/demo30-producer</module>
+
+        <module>democ.cloud-event/demo31.solon-cloud-rocketmq/demo31-consumer</module>
+        <module>democ.cloud-event/demo31.solon-cloud-rocketmq/demo31-producer</module>
 
     </modules>
 
