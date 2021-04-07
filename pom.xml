@@ -38,6 +38,11 @@
         <module>demo10.annotation/demo10.client_springboot</module>
         <module>demo10.annotation/demo10.server</module>
 
+        <module>demo20.many-implementation/demo20.client</module>
+        <module>demo20.many-implementation/demo20.interface</module>
+        <module>demo20.many-implementation/demo20.server1</module>
+        <module>demo20.many-implementation/demo20.server2</module>
+
 
         <module>demo40.springboot.solon-cloud-nacos/demo40-client</module>
         <module>demo40.springboot.solon-cloud-nacos/demo40-interface</module>
