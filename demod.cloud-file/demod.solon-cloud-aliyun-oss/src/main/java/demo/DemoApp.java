@@ -25,11 +25,13 @@ public class DemoApp {
         String key = "test/" + Utils.guid();
         String val = "Hello world!";
 
+        //上传字符串内容
         Result result = CloudClient.file().putString(key, val);
         System.out.println(ONode.stringify(result));
         assert result.getCode() == Result.SUCCEED_CODE;
 
 
+        //获取字符串内容
         String tmp = CloudClient.file().getString(key);
         assert val.equals(tmp);
     }
@@ -44,6 +46,7 @@ public class DemoApp {
         String key = "test/" + Utils.guid() + ".png";
         File val = new File(Utils.getResource("test.png").getFile());
 
+        //上传文件
         Result result = CloudClient.file().putFile(key, val);
         System.out.println(ONode.stringify(result));
         assert result.getCode() == Result.SUCCEED_CODE;
