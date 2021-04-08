@@ -78,6 +78,9 @@
         <module>democ.cloud-event/demo31.solon-cloud-rocketmq/demo31-consumer</module>
         <module>democ.cloud-event/demo31.solon-cloud-rocketmq/demo31-producer</module>
 
+        <module>democ.cloud-event/demo32.solon-cloud-mqtt/demo32-consumer</module>
+        <module>democ.cloud-event/demo32.solon-cloud-mqtt/demo32-producer</module>
+
     </modules>
 
 </project>
