@@ -43,8 +43,11 @@ public class DemoApp {
             return;
         }
 
+        // test_id/xxx.png
         String key = "test/" + Utils.guid() + ".png";
         File val = new File(Utils.getResource("test.png").getFile());
+
+        //file url like : http://xx.xx.xx/test/xxx.png
 
         //上传文件
         Result result = CloudClient.file().putFile(key, val);
