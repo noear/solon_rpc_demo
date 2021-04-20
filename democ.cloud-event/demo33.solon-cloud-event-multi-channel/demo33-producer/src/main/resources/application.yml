@@ -4,3 +4,10 @@ solon.app:
 
 solon.cloud.mqtt:
   server: "tcp://localhost:41883"   #mqtt服务地址
+
+solon.cloud.rabbitmq:
+  server: localhost:5672   #rabbitmq 服务地址
+  username: root           #rabbitmq 链接账号
+  password: 123456         #rabbitmq 链接密码
+  event:
+    channel: "im"
