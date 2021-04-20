@@ -44,10 +44,6 @@
         <module>demo20.many-implementation/demo20.server2</module>
 
 
-        <module>demo40.springboot.solon-cloud-nacos/demo40-client</module>
-        <module>demo40.springboot.solon-cloud-nacos/demo40-interface</module>
-        <module>demo40.springboot.solon-cloud-nacos/demo40-server</module>
-
         <module>demoa.cloud-config-discovery/demo20.solon-cloud-nacos/demo20-interface</module>
         <module>demoa.cloud-config-discovery/demo20.solon-cloud-nacos/demo20-client</module>
         <module>demoa.cloud-config-discovery/demo20.solon-cloud-nacos/demo20-server</module>
@@ -80,6 +76,9 @@
 
         <module>democ.cloud-event/demo32.solon-cloud-mqtt/demo32-consumer</module>
         <module>democ.cloud-event/demo32.solon-cloud-mqtt/demo32-producer</module>
+
+        <module>democ.cloud-event/demo33.solon-cloud-event-multi-channel/demo33-consumer</module>
+        <module>democ.cloud-event/demo33.solon-cloud-event-multi-channel/demo33-producer</module>
 
         <module>demod.cloud-file/demod.solon-cloud-aliyun-oss</module>
         <module>demod.cloud-file/demod.solon-cloud-aws-s3</module>
