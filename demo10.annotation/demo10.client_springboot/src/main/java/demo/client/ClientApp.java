@@ -1,6 +1,5 @@
 package demo.client;
 
-import org.noear.solon.extend.springboot.EnableSolon;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -8,7 +7,6 @@ import org.springframework.context.ApplicationContext;
 /**
  * @author noear 2021/1/3 created
  */
-@EnableSolon
 @SpringBootApplication
 public class ClientApp {
     public static void main(String[] args) {
