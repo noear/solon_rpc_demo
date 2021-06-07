@@ -15,15 +15,15 @@ public class ClientApp {
         //
         Solon.start(ClientApp.class, args, app -> app.enableHttp(false));
 
-//
-// 手动构建Rpc Client；默认使用json解码
-//
-LoadBalance loadBalance = LoadBalance.get("helloapi");
+        //
+        // 手动构建Rpc Client；默认使用json解码
+        //
+        LoadBalance loadBalance = LoadBalance.get("helloapi");
 
-HelloService helloService = Nami.builder()
-    .upstream(loadBalance::getServer)
-    .path("/")
-    .create(HelloService.class);
+        HelloService helloService = Nami.builder()
+                .upstream(loadBalance::getServer)
+                .path("/")
+                .create(HelloService.class);
 
         String result = helloService.hello("noear");
         System.out.println("Rpc result: " + result);
