@@ -1,6 +1,7 @@
 package demo.client;
 
 import demo.HelloService;
+import org.noear.nami.NamiAttachment;
 import org.noear.nami.annotation.NamiClient;
 import org.noear.solon.annotation.Component;
 
@@ -14,6 +15,8 @@ public class DemoB {
     HelloService helloService;
 
     public void test() {
+        NamiAttachment.put("Token","41cb2e48-d087-4f1a-b3e6-232f2f34ca73");
+
         String result = helloService.hello("noear");
         System.out.println("Rpc result: " + result);
     }
