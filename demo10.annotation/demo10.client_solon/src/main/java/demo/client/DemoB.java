@@ -15,6 +15,7 @@ public class DemoB {
     HelloService helloService;
 
     public void test() {
+        //添加附件
         NamiAttachment.put("Token","41cb2e48-d087-4f1a-b3e6-232f2f34ca73");
 
         String result = helloService.hello("noear");
