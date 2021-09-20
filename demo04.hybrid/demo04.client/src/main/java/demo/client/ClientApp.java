@@ -2,7 +2,7 @@ package demo.client;
 
 import demo.HelloService;
 import org.noear.nami.Nami;
-import org.noear.nami.coder.hession.HessianDecoder;
+import org.noear.nami.coder.hessian.HessianDecoder;
 import org.noear.solon.Solon;
 
 /**
