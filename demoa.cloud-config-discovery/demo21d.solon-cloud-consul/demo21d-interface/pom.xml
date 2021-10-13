@@ -16,7 +16,7 @@
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>nami</artifactId>
-            <version>1.5.41</version>
+            <version>1.5.44</version>
         </dependency>
     </dependencies>
 
