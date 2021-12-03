@@ -6,8 +6,10 @@
 
     <groupId>org.noear</groupId>
     <artifactId>solon_rpc_demo</artifactId>
-    <version>demo</version>
+    <version>dev</version>
     <packaging>pom</packaging>
+
+    <name>_root</name>
 
     <description>Java project for solon-rpc demo</description>
 
