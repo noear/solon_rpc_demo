@@ -70,7 +70,6 @@
         <module>demob.cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-client</module>
         <module>demob.cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-server</module>
 
-
     </modules>
 
 </project>
