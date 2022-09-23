@@ -13,10 +13,10 @@ public class ClientApp {
         //
         Solon.start(ClientApp.class, args);
 
-        DemoA demoA = Aop.get(DemoA.class);
+        DemoA demoA = Solon.context().getBean(DemoA.class);
         demoA.test();
 
-        DemoB demoB = Aop.get(DemoB.class);
+        DemoB demoB = Solon.context().getBean(DemoB.class);
         demoB.test();
     }
 }

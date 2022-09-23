@@ -1,5 +1,6 @@
 package demo.client;
 
+import org.noear.solon.Solon;
 import org.noear.solon.core.Aop;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,10 +16,10 @@ public class ClientApp {
         //
         SpringApplication.run(ClientApp.class, args);
 
-        DemoA demoA = Aop.get(DemoA.class);
+        DemoA demoA = Solon.context().getBean(DemoA.class);
         demoA.test();
 
-        DemoB demoB = Aop.get(DemoB.class);
+        DemoB demoB = Solon.context().getBean(DemoB.class);
         demoB.test();
     }
 }
