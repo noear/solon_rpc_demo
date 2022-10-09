@@ -13,7 +13,7 @@
     <description>Java project for water</description>
 
     <properties>
-        <solon.ver>1.10.3</solon.ver>
+        <solon.ver>1.10.6</solon.ver>
     </properties>
 
     <dependencies>
@@ -37,7 +37,7 @@
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>consul-solon-plugin</artifactId>
+            <artifactId>consul-solon-cloud-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 
