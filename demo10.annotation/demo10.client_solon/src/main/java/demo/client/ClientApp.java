@@ -1,7 +1,6 @@
 package demo.client;
 
 import org.noear.solon.Solon;
-import org.noear.solon.core.Aop;
 
 /**
  * @author noear 2021/1/3 created

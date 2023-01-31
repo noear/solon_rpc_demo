@@ -1,7 +1,6 @@
 package demo.client;
 
 import org.noear.solon.Solon;
-import org.noear.solon.core.Aop;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
