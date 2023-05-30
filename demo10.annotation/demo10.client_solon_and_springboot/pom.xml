@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.noear</groupId>
         <artifactId>solon-parent</artifactId>
-        <version>2.2.1</version>
+        <version>2.3.2</version>
     </parent>
 
     <artifactId>demo10.client_solon_and_springboot</artifactId>
